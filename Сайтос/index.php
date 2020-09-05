@@ -13,7 +13,7 @@
 				
 			<div class="header_secondary_mainbottom">
 			    	<a class="header_secondary_mainbottom4" href="#">Личный кабинет</a>
-				<a class="header_secondary_mainbottom3" href="#">Авторизация</a>
+				<a class="header_secondary_mainbottom3" href="#">Авторизация/Регистрация</a>
 				<a class="header_secondary_mainbottom2" href="#">Сладости два</a>
 				<a class="header_secondary_mainbottom1" href="news.php">Новости</a>
 			</div>
