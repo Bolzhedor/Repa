@@ -1,0 +1,102 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-goods-categories{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.goods-category-radio{
+    display: none;
+    height: 3.19vh;
+    background-color: rgb(240, 29, 106);
+}
+.goods-category-radio:hover{
+    display: none;
+    background-color: rgb(173, 19, 65);
+}
+
+.category-donuts, .category-cheese-cakes,
+.category-milkshakes,.category-pies{
+    border-right: rgb(173, 19, 65) solid;
+}
+
+input[type="radio"]:checked + .goods-category{
+    height: auto;
+    background-color: rgb(173, 19, 65);
+    white-space: nowrap;
+    user-select: none;
+}
+
+.goods-category{
+    /*height: 0;*/
+    font-size: 2vh;
+    justify-content: center;
+    height: 3.19vh;
+    text-align: center;
+    width: 20%;
+    /*padding: 5px;*/
+    background-color: rgb(240, 29, 106);
+    margin-top: 0px;
+    white-space: nowrap;
+    user-select: none;
+}
+
+.goods-category-radio-text{
+    color: white;
+}
+
+.goods-category:hover{
+    background-color: rgb(173, 19, 65);
+}
+
+.result-tegs{
+    width: 100%;
+    text-align: center;
+    /*margin-top: 3.19vh;*/
+
+}
+
+.third-another{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    margin-top: 10px;
+    justify-content: space-around;
+    grid-row-gap: 50px;
+}
+
+
+.third-another-image{
+    height: 0;
+    background-color: rgb(240, 29, 106);
+    /*border: solid rgb(240, 29, 106);*/
+}
+
+.third-another-2{
+    background-color: rgb(240, 29, 106);
+    /*width: 160px;*/
+}
+
+.third-another-2{
+    justify-content: center;
+    text-align: center;
+    width: 150%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+}
+
+.third-another-country{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.third-another-cost{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}

@@ -1,0 +1,21 @@
+.pagination{
+    position: absolute;
+    bottom: 57px;
+    min-width: 800px;
+    width: 60vw;
+    text-align: center;
+    display: inline-block;
+}
+.button-pagination{
+    margin: 0 auto 0 auto;
+    padding: 5px;
+    background-color: blue;
+    display: inline-block;
+}
+
+.button-pagination-now{
+    margin: 0 auto 0 auto;
+    padding: 5px;
+    display: inline-block;
+    background-color: red;
+}

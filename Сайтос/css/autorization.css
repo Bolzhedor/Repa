@@ -1,0 +1,53 @@
+a{
+
+    cursor: pointer;
+}
+
+.forms{
+    height: calc(100vh - 86px - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form{
+    min-height: 455px;
+    min-width: 400px;
+    justify-content: center;
+    /*text-align: center;*/
+    height: 48vh;
+    padding: 5px;
+    background-color: rgb(250, 87, 155);
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+
+input{
+    margin: 10px 0;
+    padding: 5px 0;
+}
+
+.form-registration,
+.form-registration:active,
+.form-registration:focus {
+    outline: none;
+}
+
+.point-form{
+    background-color: rgb(190, 37, 100);
+    padding: 15px;
+}
+
+
+.autorization{
+    padding: 30px 15px 2px;
+    text-align: center;
+    background-color: rgb(250, 87, 155);
+}
+
+.registration{
+
+}

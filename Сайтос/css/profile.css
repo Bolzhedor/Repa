@@ -1,0 +1,35 @@
+.i-profile{
+    height: calc(100vh - 86px - 50px);
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.windows-personal-area{
+    border: 1px rgb(250, 87, 155) solid;
+
+}
+
+.profile-actions-area{
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.profile-actions-area > a{
+    border: 1px rgb(250, 87, 155) solid;
+}
+.profile-actions-area > div{
+    border: 1px rgb(250, 87, 155) solid;
+}
+
+
+.topfive-area{
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+
+.love-area{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}

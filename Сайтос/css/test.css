@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.third-another-image{
+    height: 0;
+    background-color: rgb(240, 29, 106);
+    /*border: solid rgb(240, 29, 106);*/
+}
+
+.third-another-2{
+    background-color: rgb(240, 29, 106);
+    /*width: 160px;*/
+}
+
+.third-another-2{
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+}
+
+.third-another-country{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.third-another-cost{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}

@@ -1,11 +1,11 @@
 *{
-	margin: 0;
-	padding: 0; 
+  margin: 0;
+  padding: 0; 
 }
 
 @font-face {
         font-family: Chancery;
-		src: url("Chancery Regular.ttf");
+    src: url("Chancery Regular.ttf");
     }
 
 body{
@@ -13,7 +13,7 @@ body{
 }
 
 a{
-	text-decoration: none;
+  text-decoration: none;
 }
 
 a:link {
@@ -39,6 +39,7 @@ a:active {
   float: right;
 }
 
+
 #body{
   min-width: 1035px;
   overflow: hidden;
@@ -61,7 +62,7 @@ a:active {
 
 }
 
-/*.header-secondary-mainbottom1,*/
+.header-secondary-mainbottom1,
 .header-secondary-mainbottom2,
 .header-secondary-mainbottom3,
 .header-secondary-mainbottom4{
@@ -71,12 +72,13 @@ a:active {
   padding: 36px 34px 32px 34px;
   white-space: nowrap;
   user-select: none;
+  
 }
-/*.header-secondary-mainbottom1:hover,*/ 
+.header-secondary-mainbottom1:hover, 
 .header-secondary-mainbottom2:hover, 
 .header-secondary-mainbottom3:hover, 
 .header-secondary-mainbottom4:hover{
-  transition: 0.2s;
+  transition: 0.5s;
   background-color: rgb(219, 77, 136);
   float: right;
   padding: 36px 34px 32px 34px;
@@ -84,57 +86,29 @@ a:active {
   user-select: none;
 }
 
-.header-secondary-mainbottom1{
-  background-color: rgb(219, 77, 136);
-  float: right;
-  padding: 36px 34px 32px 34px;
-  white-space: nowrap;
-  user-select: none;
-  /*pointer-events: none;
-  cursor: default;*/
-}
+
+
 
 
 
 .main-body{
   min-width: 800px;
-  max-width: 1600px;
+  width: 60vw;
   margin: 0 auto;
   background-color: rgb(255, 188, 87);
   min-height: calc(100vh - 136px);
 
-}
 
-.main-news-categories{
-  width: 100%;
-  display: flex;
-  flex-wrap: nowrap;
 }
 
 
-.news-category{
-  text-align: center;
-  width: 20%;
-  padding: 5px;
-  background-color: rgb(240, 29, 106);
-  margin-top: 0px;
+.second-another{
+  display: grid;
+  grid-template-columns: 100px 100px;
+  margin-top: 50px;
+  justify-content: space-around;
+  grid-row-gap: 50px; 
 }
-
-.news-category:hover{
-  text-align: center;
-  width: 20%;
-  padding: 5px;
-  background-color: rgb(173, 19, 65);
-  margin-top: 0px;
-}
-.category-donuts,
-.category-cheese-cake,
-.category-milk-shake,
-.category-pies{
-
-  border-right: rgb(173, 19, 65) solid;
-}
-
 
 
 
@@ -144,4 +118,3 @@ a:active {
   background-color: rgb(250, 87, 155);
   margin-top: auto;
 }
-
