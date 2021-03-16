@@ -1,0 +1,50 @@
+.main_news_tegs{
+  height: 50px;
+  background-color: rgb(173, 19, 65);
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  /*margin-top: 15px;*/
+}
+
+.news_teg{
+  display: flex;
+  justify-content: center;
+  /*height: 1.5em;*/
+  /*width: 12.5%;*/
+}
+
+.news_teg_1{
+  margin-left: 40px;
+}
+.news_teg_8{
+  margin-right: 40px;
+}
+
+.news_teg_checkbox_text{
+  text-align: center;
+}
+
+input[type="checkbox"] + span.news_teg_checkbox_text{
+  margin-top: 25px;
+  height: 1.5em;
+  background-color: red;
+  border-radius: 10%;
+  white-space: nowrap;
+  user-select: none;
+  transition: 0.3s;
+}
+
+input[type="checkbox"]:checked + span.news_teg_checkbox_text{
+  margin-top: 5px;
+  height: 1.5em;
+  background-color: green;
+  border-radius: 10%;
+  white-space: nowrap;
+  user-select: none;
+  transition: 0.3s;
+}
+
+.news_teg_checkbox{
+  display: none;
+}
